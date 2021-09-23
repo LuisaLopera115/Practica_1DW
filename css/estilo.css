@@ -155,13 +155,13 @@ button{
     width: 100%;
     background-color: #2AC940;
     display: block;
+    align-items: center;
 }
 .nav-slide{
     color: white;
     text-decoration: none;
     list-style-type: none;
     text-align: center;
-
 }
 
 #logo{
@@ -178,8 +178,13 @@ button{
     border-radius:  0px 20px 20px 0px;
     height: 40%;
     display: block;
-    align-content: center;
+    align-items: center;
 }
 .zonaRoja{
-    height: 30%;
+    height: 33%;
+    background-color: #FA9917;
+    text-align: center;
+    display:flex;
+    align-items: center;
+
 }
