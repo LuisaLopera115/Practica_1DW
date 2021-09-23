@@ -120,8 +120,18 @@ header{
     width: 20%;
     height: 50%;
     text-align: center;
-    background-color: darkorchid;
     margin-top: 20px;
+    
+}
+button{
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: var(--color2);
+    color: var(--color1);
+    font-size: 30px;
 }
 .info-perfil{
     font-weight: 300;
@@ -130,6 +140,7 @@ header{
     color: var(--color4_);
     
 }
+
 #menu-container{
     width: 10%;
     height: 100%;
