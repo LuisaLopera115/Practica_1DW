@@ -31,7 +31,7 @@ header{
     display: flex;
 }
 .div-menu{
-    width: 90%;
+    width: 100%;
     height: 100%;
     background-color: aqua;
     display: inline-block;
@@ -60,7 +60,6 @@ header{
 #sectio-img-principal{
     width: 50%;
     height: 100%;
-    background-color: chocolate;
     background: url(../img/main-image.png);
     background-position: center;
     background-attachment: contain;
@@ -142,27 +141,45 @@ button{
 }
 
 #menu-container{
-    width: 10%;
+    width: 7%;
     height: 100%;
     display: inline-flex;
     justify-content: flex-end;
     box-shadow: 10px 5px 5px rgba(59, 59, 59, 0.664);
     background-color: blue;
+    flex-direction: column;
 }
 
 #slide-bar{
     height: 100%;
-    width: 50%;
-}
-.active{
-    display: none;
+    width: 100%;
+    background-color: #2AC940;
+    display: block;
 }
 .nav-slide{
-    background-color: rgba(26, 26, 26, 0.753);
     color: white;
     text-decoration: none;
     list-style-type: none;
     text-align: center;
-    padding: 15px 10px ;
+
+}
+
+#logo{
+    background-color: rgba(26, 26, 26, 0.753);
+    height: 30%;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
     border-bottom: 1px solid rgba(95, 95, 95, 0.548);
+}
+.section-menu{
+    background-color: #AC0000;
+    border-radius:  0px 20px 20px 0px;
+    height: 40%;
+    display: block;
+    align-content: center;
+}
+.zonaRoja{
+    height: 30%;
 }
