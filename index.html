@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Clase 3 desarrollo web</title>
+    <script src="https://kit.fontawesome.com/945caf51af.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+    <!-- este es el menu deslizante -->
+    <header>
+        <div id="menu-container">
+            <div id="slide-bar" class="active">
+                <li href="#" class="nav-slide "> Inicio</li>
+                <li href="#" class="nav-slide ">Sabores</li>
+                <li href="#" class="nav-slide ">Estilos</li>
+                <li href="#" class="nav-slide ">Nosotros</li>
+                <li href="#" class="nav-slide ">Contactanos</li>
+            </div>
+        </div>
+
+        <div class="div-menu">
+            <section class="section-busqueda">
+                <div class="div-busqueda">
+                    <figure>
+                        <img width="150px" src="img/header.png" alt="img/logo.PNG">
+                    </figure>
+                </div>
+            </section>
+
+
+            <section class="section-img">
+                <!-- Aqui va la imagen -->
+                <div id="sectio-img-principal">
+
+                </div>
+                <div id="sectio-inf-principal" class="">
+
+                    <div class="perfil-section1">
+
+                    </div>
+
+                    <div class="perfil-section2">
+
+                        <div class="img-perfil">
+
+                        </div>
+                        <div class="sectio-perfil1">
+
+                            <div class="content-titulo-perfil">
+                                <div class="titulo-perfil">
+                                    <h4>When an unknow printer</h4>
+                                </div>
+                                <div class="subtitulo-perfil">
+                                    <h6>Lorem ipsum dolor sit </h6>
+                                </div>
+                            </div>
+                            <div class="info-perfil">
+                                <h6>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, sequi laborum! Ipsum
+                                    consequuntur amet qui, quod facilis nisi exercitationem. Laboriosam, quo labore!
+                                    Tempore quaerat fugiat asperiores officiis. Perferendis, porro sint!
+                                </h6>
+                            </div>
+                        </div>
+
+                        <div class="boton-perfil">
+                            <button>Follow</button>
+                        </div>
+
+
+                    </div>
+
+                    <div class="perfil">
+
+                    </div>
+                </div>
+
+        </div>
+
+    </header>
+
+
+    <script>
+        function despliega() {
+            console.log('entra a la funcion')
+            var enlace = document.getElementsByClassName('nav-enlace');/* toma las variables de clase nav enlace */
+            for (var i = 0; i < enlace.length; i++) {
+                enlace[i].classList.toggle('desaparace');
+            }
+        }
+
+        function Desliza() {
+            console.log('menu')
+            document.getElementById('slide-bar').classList.toggle('active')
+        }
+    </script>
+</body>
+
+</html>
