@@ -1,12 +1,13 @@
 :root{
     /*aqui van los valores de los colores*/
-  --color1: #ff6058b9;
-  --color1_: #ff6058;
-  --color2: #fa981788;
+   
+  --color1: #FFFFFF;
+  --color1_: #00000029;
+  --color2: #AC0000;
   --color2_: #FA9917;
-  --color3_: #FF3366;
+  --color3_: #F2F2F2;
   --color4: #2AC940;
-  --color4_: #2ac93fa1;
+  --color4_: #BEBEBE;
   --fondo: #f2f2f2;
   --titulos: 33px;
   --margenes: 60px;
@@ -19,7 +20,7 @@
 *{
     margin: 0%;
     font-family: 'Oswald', sans-serif;
-    font-weight: var(--fuente-delgada);
+    font-weight: 500;
     font-size: 24px;
 
 }  
@@ -81,7 +82,7 @@ header{
 .perfil-section2{
     width: 100%;
     height: 40%;
-    background-color: rgb(161, 188, 236);
+    background-color: var(--color1);
     display: flex;
     align-content: center;
 }
@@ -98,34 +99,36 @@ header{
 .sectio-perfil1{
     width: 50%;
     height: 100px;
-    background-color: darkolivegreen;
+    padding: 10px;
 }
 .content-titulo-perfil{
-    width: 80%;
+    width: 100%;
     height: 100px;
     display: inline-block;
-    background-color: darkblue;
 }
 .titulo-perfil{
     width: 100%;
     height: 50px;
-    background-color: crimson;
+    font-weight: 800;
 }
 .subtitulo-perfil{
     width: 100%;
     height: 50px;
-    background-color: rgb(233, 128, 149);
+    font-weight: 500;
 }
 .boton-perfil{
     width: 20%;
-    height: 100px;
-    background-color: rgb(67, 60, 134);
+    height: 50%;
     text-align: center;
+    background-color: darkorchid;
+    margin-top: 20px;
 }
 .info-perfil{
+    font-weight: 300;
     width: 100%;
     height: 200px;
-    background-color: darkmagenta;
+    color: var(--color4_);
+    
 }
 #menu-container{
     width: 10%;
