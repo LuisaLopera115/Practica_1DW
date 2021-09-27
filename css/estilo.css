@@ -2,7 +2,7 @@
     /*aqui van los valores de los colores*/
    
   --color1: #FFFFFF;
-  --color1_: #00000029;
+  --color1_: #00000056;
   --color2: #AC0000;
   --color2_: #FA9917;
   --color3_: #F2F2F2;
@@ -27,35 +27,44 @@
 header{
     width: 100%;
     height: 1000px;
-    background-color: #6d6565;
     display: flex;
 }
 .div-menu{
     width: 100%;
     height: 100%;
-    background-color: aqua;
     display: inline-block;
     justify-content: start;
 }
+.busqueda-container{
+    width: 100%;
+    height: 100px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.144);
+}
 .div-busqueda{
     width: 40%;
-    height: 80px;
+    height: 100px;
     display: flex;
     justify-content: center;
     padding: 0;
-    background-color: #FF3366;
+    display: flex;
+    align-items: center;
 }
-.section-busqueda{
-    width: 100%;
-    height: 80px;
-    background-color: chartreuse;
-    box-shadow: 10px 5px 5px rgba(59, 59, 59, 0.664);
+.cuadro-busqueda{
+    width: 500px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: end;
+    background-color: rgba(0, 0, 0, 0.11);
+}
+.search-icon{
+    padding-right: 30px;
+    padding-top: 8px;
 }
 .section-img{
     width: 100%;
-    height: 920px;
-    background-color: blueviolet;
+    height: 100%;
     display: flex;
+    background-color: rgba(0, 0, 0, 0.041);
 }
 #sectio-img-principal{
     width: 50%;
@@ -63,27 +72,173 @@ header{
     background: url(../img/main-image.png);
     background-position: center;
     background-attachment: contain;
-    background-size: 90%;
+    background-size: 85%;
     background-repeat: no-repeat;
 }
 #sectio-inf-principal{
     width: 50%;
     height: 100%;
-    background-color: rgb(194, 131, 85);
     display: inline-block;
-    justify-content: center;
+    justify-content:center;
+    padding-top: 50px;
 }
 .perfil-section1{
     width: 100%;
-    height: 30%;
-    background-color: cornflowerblue;
+    height: 25%;
+    display: inline-block;
+}
+
+.titulo-img{
+    font-weight: 500;
+    font-size: 30px;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.seccion-compartido{
+    display: flex;
+    height: 50%;
+}
+.visualizaciones{
+    width: 15%;
+    height: 90%;
+    text-align: center;
+}
+.guardado{
+    width: 15%;
+    height: 90%;
+    text-align: center;
+}
+.compartido{
+    width: 15%;
+    height: 90%;
+    text-align: center;
+}
+.subinfo{
+    font-weight: 100;
+    font-size: 20px;
+    color: var(--color4_);
 }
 .perfil-section2{
     width: 100%;
-    height: 40%;
-    background-color: var(--color1);
+    height: 25%;
     display: flex;
     align-content: center;
+}
+.perfil-section3{
+    width: 100%;
+    height: 30%;
+    display: inline-block;
+    align-content: center;
+}
+.photos-comentarios{
+    width: 100%;
+    height: 20%;
+    border-bottom: 1px solid rgba(95, 95, 95, 0.548);
+    display: flex;
+}
+#photos{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color2);
+}
+#coments{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.fotos-coleccion{
+    height: 50%;
+    width: 100%;
+    border-bottom: 1px solid rgba(95, 95, 95, 0.548);
+}
+.coleccion{
+    width: 100%;
+    height: 55%;
+    display: flex;
+    margin-left: 15px;
+}
+.imagen{
+    background-color: chartreuse;
+    width: 8%;
+    height: 100%;
+}
+#img1{
+    background: url(../img/thumbnail01.png);
+    background-attachment: contain;
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+#img2{
+    background: url(../img/thumbnail02.png);
+    background-attachment: contain;
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+#img3{
+    background: url(../img/thumbnail03.png);
+    background-attachment: contain;
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+#img4{
+    background: url(../img/thumbnail04.png);
+    background-attachment: contain;
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+#img5{
+    background: url(../img/thumbnail06.png);
+    background-attachment: contain;
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+#img6{
+    background: url(../img/thumbnail07.png);
+    background-attachment: contain;
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+#img7{
+    background: url(../img/thumbnail08.png);
+    background-attachment: contain;
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+#img8{
+    background: url(../img/thumbnail09.png);
+    background-attachment: contain;
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+#img9{
+    background: url(../img/thumbnail10.png);
+    background-attachment: contain;
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+#img10{
+    background: url(../img/thumbnail11.png);
+    background-attachment: contain;
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
 }
 .img-perfil{
     width: 20%;
@@ -94,6 +249,24 @@ header{
     background-size: 50%;
     padding: 10px;
     background-repeat: no-repeat;
+}
+.fotos-descripcion{
+    font-weight: 100;
+    font-size: 20px;
+    color: var(--color4_);
+    padding-left: 15px;
+}
+.fotos-descripcion_2{
+    font-weight: 100;
+    font-size: 20px;
+    color: var(--color1_);
+    padding-bottom: 25px;
+    padding-left: 15px;
+}
+
+.foto-boton{
+    width: 100%;
+    height: 40%;    
 }
 .sectio-perfil1{
     width: 50%;
@@ -123,7 +296,7 @@ header{
     
 }
 button{
-    padding: 10px;
+    padding: 5px;
     padding-left: 40px;
     padding-right: 40px;
     border-radius: 20px;
@@ -133,29 +306,27 @@ button{
     font-size: 30px;
 }
 .info-perfil{
-    font-weight: 300;
+    font-weight: 100;
+    font-size: 20px;
     width: 100%;
     height: 200px;
     color: var(--color4_);
-    
 }
 
 #menu-container{
     width: 7%;
-    height: 100%;
+    height: 110%;
     display: inline-flex;
     justify-content: flex-end;
-    box-shadow: 10px 5px 5px rgba(59, 59, 59, 0.664);
-    background-color: blue;
     flex-direction: column;
 }
 
 #slide-bar{
     height: 100%;
     width: 100%;
-    background-color: #2AC940;
     display: block;
     align-items: center;
+    box-shadow: 5px 5px 5px rgba(59, 59, 59, 0.158);
 }
 .nav-slide{
     color: white;
@@ -163,15 +334,20 @@ button{
     list-style-type: none;
     text-align: center;
 }
-
+#comentarios{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
 #logo{
-    background-color: rgba(26, 26, 26, 0.753);
-    height: 30%;
+    height: 25%;
     color: white;
     text-decoration: none;
     list-style-type: none;
     text-align: center;
-    border-bottom: 1px solid rgba(95, 95, 95, 0.548);
+    margin: 30px;
 }
 .section-menu{
     background-color: #AC0000;
@@ -182,9 +358,8 @@ button{
 }
 .zonaRoja{
     height: 33%;
-    background-color: #FA9917;
-    text-align: center;
     display:flex;
     align-items: center;
+    justify-content: center;
 
 }
